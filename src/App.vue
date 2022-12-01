@@ -5,10 +5,11 @@
       <router-link to="/about">About</router-link>
     </nav>
     <router-view/>
+    <p>1234</p>
   </div>
 </template>
 
-<style>
+<style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -28,5 +29,9 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+p{
+  font-size: $ss;
+  color: $red;
 }
 </style>
